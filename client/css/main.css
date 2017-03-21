@@ -4,10 +4,13 @@ html, body {
   padding-left: 50px;
   padding-right: 50px;
   font-family: 'Roboto', sans-serif;
-  width:100%;
+  width: 100%;
+  
+  overflow-x: hidden;
 }
 
 .img-responsive {
+
  height: 130px;
  width: 200px;
 }
@@ -15,12 +18,11 @@ html, body {
  height: 49px;
  width: 75px;
 }
+
 /*navbar*/
-
 .navbar, .dropdown-menu{
-background:rgba(0,125,157,1);
-border: none;
-
+  background:rgba(0,125,157,1);
+  border: none;
 }
 
 .nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
@@ -34,8 +36,8 @@ border: none;
  color: #fff;
 }
 .dropdown-menu{
-      -webkit-box-shadow: none;
-    box-shadow:none;
+  -webkit-box-shadow: none;
+  box-shadow:none;
 }
 
 .nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
@@ -63,35 +65,35 @@ border: none;
 /*carousel*/
 .main-text
 {
-    position: absolute;
-    top: 50px;
-    width: 96.66666666666666%;
-    color: #007D9D;
+  position: absolute;
+  top: 50px;
+  width: 96.66666666666666%;
+  color: #007D9D;
 }
 .btn-min-block
 {
-    min-width: 170px;
-    line-height: 26px;
+  min-width: 170px;
+  line-height: 26px;
 }
 .btn-clear
 {
-    color: #007D9D;
-    background-color: transparent;
-    border-color: #007D9D;
-    margin-right: 15px;
+  color: #007D9D;
+  background-color: transparent;
+  border-color: #007D9D;
+  margin-right: 15px;
 }
 .btn-clear:hover
 {
-    color: #fff;
-    background-color: #007D9D;
+  color: #fff;
+  background-color: #007D9D;
 }
 
 .back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display:none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
 }
 
 /*sign in*/ 
@@ -112,7 +114,8 @@ border: none;
 
 }
 
-.thumbnail {
+.thumbnail { 
+  height: 510px;
   border: 1px solid #BFBFBF ;
   border-width: 2px;
   position: relative;
@@ -122,23 +125,30 @@ border: none;
 }
 
 .thumbnail img {
-border: 0px;
- margin-top: 0px;
+ height: 290px;
+ border: 0px;
+ margin-top: 15px;
  margin-bottom: 0px;
- max-width: 100%;
 }
 
 .span {
   color: blue;
 }
 
-.modal
-{
-position: fixed;
-left: 25%;
+.modal-dialog
+{ 
+  margin-top: 30px;
+  margin-bottom: 30px
+  vertical-align: middle;
+  position: fixed;
+  left: 25%;
 }
 
 .marquee{
-background-color: #007D9D
+  background-color: #007D9D
 
+}
+
+#details{
+  background-color: #007D9D
 }
