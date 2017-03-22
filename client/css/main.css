@@ -5,12 +5,10 @@ html, body {
   padding-right: 50px;
   font-family: 'Roboto', sans-serif;
   width: 100%;
-  
   overflow-x: hidden;
 }
 
 .img-responsive {
-
  height: 130px;
  width: 200px;
 }
@@ -63,20 +61,18 @@ html, body {
 }
 
 /*carousel*/
-.main-text
-{
+.main-text {
   position: absolute;
   top: 50px;
   width: 96.66666666666666%;
   color: #007D9D;
 }
-.btn-min-block
-{
+.btn-min-block{
   min-width: 170px;
   line-height: 26px;
 }
-.btn-clear
-{
+
+.btn-clear{
   color: #007D9D;
   background-color: transparent;
   border-color: #007D9D;
@@ -130,23 +126,27 @@ html, body {
  margin-top: 15px;
  margin-bottom: 0px;
 }
-
-.span {
-  color: blue;
+#detail { 
+  background-color: rgba(255,255,255,1);
+  border: 1px solid #BFBFBF ;
+  border-width: 1px;
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom:25px;
 }
 
-.modal-dialog
-{ 
-  margin-top: 30px;
-  margin-bottom: 30px
-  vertical-align: middle;
+.span {
+  color: #286090;
+}
+
+.modal {
   position: fixed;
-  left: 25%;
+  margin-left: 350px;
 }
 
 .marquee{
   background-color: #007D9D
-
 }
 
 #details{

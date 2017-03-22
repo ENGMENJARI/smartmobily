@@ -49,7 +49,7 @@
     <div class="row" ng-init="getAllMobiles()">
      <div class="col-sm-6 col-md-4" ng-repeat="elment in Mobiles">
        <div class="thumbnail">
-         <img class="thumbnail" src={{elment.image}} alt="{{elment.company}}" height="132" width="200">
+         <img  src={{elment.image}} alt="{{elment.company}}" >
          <div class="caption">
            <h3>{{elment.name}}</h3>
            <p>{{elment.camera}}</p>
@@ -61,7 +61,7 @@
              <div class="modal-dialog">
                <div class="row"  >
                  <div class="col-sm-7 col-md-5">
-                     <div class="thumbnail">
+                     <div class="thumbnail1" id="detail">
                        <p><span class="span">Name:</span> {{mobile.name}}</p>
                        <p><span class="span">Color:</span>{{mobile.color}}</p>
                        <p><span class="span">Os:</span> {{mobile.os}}</p>
@@ -71,7 +71,7 @@
                        <p><span class="span">Memory:</span> {{mobile.memory}}</p>
                        <p><span class="span">Processor:</span> {{mobile.processor}}</p>
                        <p><span class="span">Display:</span> {{mobile.display}}</p>
-                       <div><button type="button" class="btn btn-primary"  data-dismiss="modal">Close</button></div>
+                       <div><button type="button" class="btn btn-primary btn-block"  data-dismiss="modal">Close</button></div>
                      </div>
                    </div>
                  </div>
