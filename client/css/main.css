@@ -175,6 +175,7 @@ html, body {
   display: block;
 }
 .footer {
+  
   background: #EDEFF1;
   height: auto;
   padding-bottom: 30px;
@@ -187,6 +188,7 @@ html, body {
 .footer img {
   max-width: 100%;
 }
+
 .footer h3 {
   border-bottom: 1px solid #BAC1C8;
   color: #54697E;
@@ -235,9 +237,7 @@ html, body {
   color: #027D9E
 }
 
-.facebook{
-  height: 200px
-}
+
 .sub{
  color:#7F8C8D;
  font-size: 14px
@@ -267,4 +267,9 @@ html, body {
 
 .footer-bottom p{
   margin-left: 400px
+}
+
+iframe{
+  background-color: #317AB8;
+  border-bottom: 1px solid #BAC1C8;
 }
